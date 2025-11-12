@@ -1,8 +1,8 @@
 {
-  "name": "collaborative-canvas",
+  "name": "flam_assignment",
   "version": "1.0.0",
   "private": true,
-  "description": "Real-time collaborative drawing canvas (vanilla JS + Node + Socket.IO)",
+  "description": "Collaborative Canvas App for Flam Assignment",
   "scripts": {
     "start": "node server/server.js",
     "dev": "nodemon server/server.js"
@@ -14,5 +14,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
