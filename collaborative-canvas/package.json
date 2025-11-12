@@ -2,11 +2,22 @@
   "name": "flam_assignment",
   "version": "1.0.0",
   "private": true,
-  "description": "Collaborative Canvas App for Flam Assignment",
+  "description": "Real-time Collaborative Canvas App for Flam Technical Assignment",
+  "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
     "dev": "nodemon server/server.js"
   },
+  "keywords": [
+    "flam",
+    "assignment",
+    "collaborative-canvas",
+    "socket.io",
+    "express",
+    "real-time"
+  ],
+  "author": "Rakesh-0211",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.19.2",
     "socket.io": "^4.8.1",
@@ -16,6 +27,7 @@
     "nodemon": "^3.1.7"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.x",
+    "npm": "9.x"
   }
 }
