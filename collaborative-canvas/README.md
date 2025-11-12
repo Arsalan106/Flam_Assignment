@@ -21,7 +21,7 @@ npm start
 npm run dev
 ```
 
-Now open http://localhost:3000 in two or more browser windows to test.
+Now open https://draw-with-me-h09i.onrender.com/ in two or more browser windows to test.
 
 ## 🧪 Testing with Multiple Users
 Open several tabs or different browsers pointing to `http://localhost:3000`. Type a different display name in each tab when prompted. Draw and watch everyone’s strokes in real time. Try undo/redo from any tab and observe the global effect.
